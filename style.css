@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background-color: blueviolet;
+}
+.nav
+{
+    display: flex;
+}
+.nav .heading h2
+{
+    margin-top: 25%;
+}
+.nav .links
+{
+    margin-top: 3%;
+    padding: 2px;
+    margin-left: 1.5%;
+}
+.nav .links a
+{
+    padding: 3px;
+}
+.nav .links a:hover
+{
+    color: black;
+    border-top-style: hidden;
+    border-right-style: hidden ;
+    border-bottom-style: solid ;
+    border-left-style: hidden;
+    border-top-color: white ;
+    border-right-color:white ;
+    border-bottom-color:blueviolet ;
+    border-left-color: white;
+    border-radius: 2px;
+
+}
+.nav .searchbar
+{
+    margin-top: 3%;
+    margin-left: 41%;
+
+}
+.flag
+{
+    padding: 10px;
+    margin-top: 1%;
+}
+.flag:hover{
+    color: black;
+    border-top-style: hidden;
+    border-right-style: hidden ;
+    border-bottom-style: solid ;
+    border-left-style: hidden;
+    border-top-color: white ;
+    border-right-color:white ;
+    border-bottom-color:blueviolet ;
+    border-left-color: white;
+    border-radius: 2px;
+}
+.account
+{
+    padding: 5px;
+    margin-top: 2.3%;
+}
+.account:hover{
+    color: black;
+    border-top-style: hidden;
+    border-right-style: hidden ;
+    border-bottom-style: solid ;
+    border-left-style: hidden;
+    border-top-color: white ;
+    border-right-color:white ;
+    border-bottom-color:blueviolet ;
+    border-left-color: white;
+    border-radius: 2px;
+}
+.wishlist
+{
+    padding: 5px;
+    margin-top: 1.5%;
+}
+.wishlist:hover
+{
+    color: black;
+    border-top-style: hidden;
+    border-right-style: hidden ;
+    border-bottom-style: solid ;
+    border-left-style: hidden;
+    border-top-color: white ;
+    border-right-color:white ;
+    border-bottom-color:blueviolet ;
+    border-left-color: white;
+    border-radius: 2px;
+}
+.cart
+{
+    /* padding: 3px; */
+    margin-top: 1.8%;
+}
+.cart:hover
+{
+    color: black;
+    border-top-style: hidden;
+    border-right-style: hidden ;
+    border-bottom-style: solid ;
+    border-left-style: hidden;
+    border-top-color: white ;
+    border-right-color:white ;
+    border-bottom-color:blueviolet ;
+    border-left-color: white;
+    border-radius: 2px;
+}
+.images
+{
+  margin-top: 2%;
+}
+ .categories
+ {
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .necklace img:hover
+ {
+    transform: scale(1.05);
+ }
+ .necklace .name {
+font-weight: bold;
+color: #333;
+font-size: large;
+}
+
+.necklace .price {
+color: #007bff;
+font-weight: bold;
+/* padding: 80px; */
+}
+.subcategories
+ {
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .bracelet .name {
+font-weight: bold;
+color: #333;
+font-size: large;
+}
+
+.bracelet .price {
+color: #007bff;
+font-weight: bold;
+/* padding: 80px; */
+}
+.bracelet img:hover
+ {
+    transform: scale(1.05);
+ }
+.earning .name {
+font-weight: bold;
+color: #333;
+font-size: large;
+}
+
+.earning .price {
+color: #007bff;
+font-weight: bold;
+/* padding: 80px; */
+}
+.earning img:hover
+{
+ transform: scale(1.05);
+}
+.set .name {
+font-weight: bold;
+color: #333;
+font-size: large;
+}
+
+.set .price {
+color: #007bff;
+font-weight: bold;
+/* padding: 80px; */
+}
+.set img:hover
+{
+ transform: scale(1.05);
+}
+.kada .name {
+font-weight: bold;
+color: #333;
+font-size: large;
+}
+
+.kada .price {
+color: #007bff;
+font-weight: bold;
+/* padding: 80px; */
+}
+.kadacategories{
+display: flex;
+margin-left:4%;
+}
+.kada img:hover
+{
+ transform: scale(1.05);
+}
+.pendent .name {
+font-weight: bold;
+color: #333;
+font-size: large;
+}
+
+.pendent .price {
+color: #007bff;
+font-weight: bold;
+/* padding: 80px; */
+}
+.pendent img:hover
+{
+ transform: scale(1.05);
+}
+.bangles .name {
+font-weight: bold;
+color: #333;
+font-size: large;
+}
+
+.bangles .price {
+color: #007bff;
+font-weight: bold;
+/* padding: 80px; */
+}
+.bangles img:hover
+{
+ transform: scale(1.05);
+}
+.mala .name {
+font-weight: bold;
+color: #333;
+font-size: large;
+}
+
+.mala .price {
+color: #007bff;
+font-weight: bold;
+/* padding: 80px; */
+}
+.mala img:hover
+{
+ transform: scale(1.05);
+}
+.malacategories{
+display: flex;
+margin-left:4%;
+}
+ button{
+    margin-top: 1.5%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-right: 15px;
+    margin-left: 23%;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+ }
+ .videos
+{
+padding: 20px;
+border: 3px solid white;
+border-radius: 7px;
+float: left;
+box-sizing: content-box;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid
+{
+  display: grid;
+  background-color: thistle;
+  padding: 20px;
+ padding-left: 100px;
+  column-gap: 130px;
+  row-gap: 50px;
+  display: flex;
+  text-transform: capitalize;
+  color: black;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+.grid .first b
+{
+   padding: 10px;
+   
+}
+.grid .second b
+{
+    padding: 20px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    padding: 2px 0px 10px 0px;
+    background-color: black;
+    color: white;
+  } 
+  
+  .box img {
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+  }
+  
+  .box b {
+    margin: 1px;
+    font-size: 16px;
+  }
+  .app
+  {
+      display: flex;
+      column-gap: 5px;
+  }
+  a:hover
+  {
+      color: salmon;
+  }
